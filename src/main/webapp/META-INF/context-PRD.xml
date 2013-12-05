@@ -15,9 +15,9 @@
         logAbandoned="true"
         minEvictableIdleTimeMillis="30000"
         jdbcInterceptors="org.apache.tomcat.jdbc.pool.interceptor.ConnectionState;org.apache.tomcat.jdbc.pool.interceptor.StatementFinalizer"
-        username="csptrading"
-        password="csptrading"
+        username="cspMarket"
+        password="1QAZxsw2"
         driverClassName="com.mysql.jdbc.Driver"
-        url="jdbc:mysql://localhost:3306/cspMarket"
+        url="jdbc:mysql://ec2-176-34-253-124.eu-west-1.compute.amazonaws.com:3306/cspMarket"
 	/>
 </Context>
